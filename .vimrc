@@ -1,4 +1,3 @@
-
 "I grant this vimrc my love
 "--my own code
 let mapleader = "\<Space>"
@@ -17,6 +16,7 @@ set softtabstop=2
 set expandtab 
 set shiftwidth=2
 set foldmethod=indent 
+set ic
 "inoremap <NL> <esc>:call AutoindentEnter()<CR>
 nnoremap <CR> za
 nnoremap <F5> :silent make!\|redraw!\|clist<CR>
